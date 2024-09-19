@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: azure;
+    font-family: "popping", sans-serif;
+}
+.first{
+    display: grid; grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+}
+.first a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    display: inline;
+    padding: 15px;
+}
+.item2{
+    display: grid;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+   padding-right: 50px;
+}
+.head p{
+    display: inline;
+    padding: 10px;
+    
+    
+}
+.item3{
+    padding: 80px 70px;
+    font-size: 20px;
+    font-weight:normal;
+}
+.item3 a{
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 13px;
+    color: black;
+}
+.Car{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items:center ;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+    
+}
+.caritem{
+    border: 1px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.192) ;
+    text-align: center;
+
+}
+.Car > div h4{ font-size: 18px;}
+.Car > div h4, p{padding-left: 10px; padding-top: 15px;}
+.Car > div p{ font-weight: bold; font-size: 16px; }
+.Car > div s{ font-weight: normal;}
+.Car > div b{ color: red; font-weight: normal;}
+   
+.item4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto  auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    gap: 10px;
+}
+.item4 p{
+    color: black;
+}
+.item4 a{
+    color: black;
+}
+.item4 img{
+    width: 450px;
+    height: 251px;
+    border-radius: 7px;
+    box-shadow:0px 0px 15px rgba(0, 0, 0, 0.192); 
+    cursor: pointer;
+
+}
+bg1 img{
+    width: 780px; height: 565px; cursor: pointer;
+}
+.Anime{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items:center ;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+    
+}
+.animeitem{
+    border: 1px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.192) ;
+    text-align: center;
+}
+.Anime > div h4{ font-size: 18px;}
+.Anime > div h4, p{padding-left: 10px; padding-top: 15px;}
+.Anime > div p{ font-weight: bold; font-size: 16px; }
+.Anime > div s{ font-weight: normal;}
+.Anime > div b{ color: red; font-weight: normal;}
+.Barbie{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items:center ;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+    
+}
+.barbieitem{
+    border: 1px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.192) ;
+    text-align: center;
+}
+.Barbie > div h4{ font-size: 18px;}
+.Barbie > div h4, p{padding-left: 10px; padding-top: 15px;}
+.Barbie > div p{ font-weight: bold; font-size: 16px; }
+.Barbie > div s{ font-weight: normal;}
+.Barbie > div b{ color: red; font-weight: normal;}
+
+.Nerf{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items:center ;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+    
+}
+.nerfitem{
+    border: 1px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.192) ;
+    text-align: center;
+}
+.Nerf > div h4{ font-size: 18px;}
+.Nerf > div h4, p{padding-left: 10px; padding-top: 15px;}
+.Nerf > div p{ font-weight: bold; font-size: 16px; }
+.Nerf > div s{ font-weight: normal;}
+.Nerf > div b{ color: red; font-weight: normal;}
+
+.Board{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items:center ;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+    
+}
+.boarditem{
+    border: 1px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.192) ;
+    text-align: center;
+}
+.Board > div h4{ font-size: 18px;}
+.Board > div h4, p{padding-left: 10px; padding-top: 15px;}
+.Board > div p{ font-weight: bold; font-size: 16px; }
+.Board > div s{ font-weight: normal;}
+.Board > div b{ color: red; font-weight: normal;}
+footer{
+    text-align: center;
+}
+.contain{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content:center ;
+    text-align: left;
+}
+.con h2{
+    font-size: 20px; color: crimson;
+}
+.contain div a{
+    text-decoration: none; color: black; font-weight: bold; font-size: 15px; padding-left: 20px;
+}
